@@ -187,7 +187,7 @@ class Biblioteca:
         self._prox_matricula += 1
         return usuario
 
-    # ---------- buscas ----------
+    # buscas 
     def buscar_item(self, codigo):
         if codigo not in self._acervo:
             raise NaoEncontradoErro(f"Item {codigo} nao encontrado.")
